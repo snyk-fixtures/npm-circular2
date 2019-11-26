@@ -1,0 +1,21 @@
+{
+  "name": "@snyk/npm-circular1",
+  "description": "npm circular dependency part 1",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Konstantin Yegupov <konstantin@snyk.io>",
+  "license": "MIT",
+  "dependencies": {
+    "npm-circular1": "snyk-fixtures/npm-circular1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:snyk-fixtures/npm-circular1.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
